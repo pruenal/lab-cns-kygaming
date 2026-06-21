@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简明指南 · 开元棋牌</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #faf7f0;
+            font-family: 'Georgia', 'Noto Serif SC', 'Source Han Serif SC', serif;
+            color: #2e2a24;
+            line-height: 1.75;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background-color: #fffcf7;
+            padding: 2.8rem 2.2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.03);
+        }
+
+        @media (max-width: 560px) {
+            body { padding: 1.2rem 0.8rem; }
+            .container { padding: 1.8rem 1.2rem; }
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 450;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.25rem;
+            color: #2c241e;
+        }
+
+        .subhead {
+            font-size: 1rem;
+            color: #7b6f63;
+            border-bottom: 1px solid #e6ded0;
+            padding-bottom: 1.2rem;
+            margin-bottom: 1.8rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 450;
+            margin-top: 2.4rem;
+            margin-bottom: 0.8rem;
+            color: #3b3229;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 400;
+            margin-top: 1.6rem;
+            margin-bottom: 0.4rem;
+            color: #4b3e33;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+
+        .intro-card {
+            background: #f4efe8;
+            padding: 1.6rem 1.8rem;
+            border-radius: 16px;
+            margin: 1.5rem 0 2.2rem;
+            border-left: 3px solid #b4a089;
+        }
+
+        .intro-card p {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin: 1.2rem 0 1.8rem;
+        }
+
+        .highlight-item {
+            flex: 1 1 180px;
+            background: #ffffff;
+            border: 1px solid #e3dace;
+            border-radius: 14px;
+            padding: 1.2rem 1rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+        }
+
+        .highlight-item strong {
+            display: block;
+            font-size: 1.05rem;
+            color: #4f4036;
+            margin-bottom: 0.3rem;
+        }
+
+        blockquote {
+            background: #f3eee7;
+            border-left: 4px solid #c7b7a3;
+            padding: 1rem 1.4rem;
+            margin: 1.8rem 0;
+            border-radius: 0 12px 12px 0;
+            font-style: normal;
+            color: #3b342d;
+        }
+
+        blockquote p {
+            margin-bottom: 0.2rem;
+        }
+
+        .scenario-block {
+            background: #f9f5ef;
+            border-radius: 16px;
+            padding: 1.4rem 1.6rem;
+            margin: 1.6rem 0;
+        }
+
+        .faq-mini {
+            margin-top: 2.2rem;
+            padding-top: 1.2rem;
+            border-top: 1px dashed #dbd0c2;
+        }
+
+        .faq-mini details {
+            margin-bottom: 0.6rem;
+            padding: 0.4rem 0.6rem;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .faq-mini details[open] {
+            background: #f5f0e9;
+        }
+
+        .faq-mini summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #3d332b;
+            padding: 0.2rem 0;
+        }
+
+        .faq-mini summary::-webkit-details-marker {
+            color: #a58f7b;
+        }
+
+        .link-word {
+            color: #7f674f;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #cfbfad;
+            font-weight: 450;
+            transition: color 0.2s;
+        }
+
+        .link-word:hover {
+            color: #423327;
+            text-decoration-color: #423327;
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: #7a6f64;
+            margin-top: 1.8rem;
+            padding: 0.8rem 1rem;
+            background: #f2ede6;
+            border-radius: 10px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e1d6c8;
+            margin: 2rem 0 0.8rem;
+        }
+
+        .footer-text {
+            font-size: 0.85rem;
+            color: #96897b;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>开元棋牌</h1>
+    <div class="subhead">一份简明指南 · 关于平台、特点与适度使用</div>
+
+    <p>如果你正在寻找一个种类齐全、运转稳定的在线棋牌环境，<a href="https://cns-kygaming.com" class="link-word">开元棋牌</a>或许是值得你花几分钟了解的选择。以下内容并非推销，而是从使用角度出发，梳理它的基本情况、可玩亮点以及一些务实的提醒。</p>
+
+    <div class="intro-card">
+        <p><strong>摘要</strong><br>
+        开元棋牌是一个整合了多种经典与流行棋牌玩法的在线平台，涵盖扑克、麻将、轮盘、捕鱼等常见种类。界面偏向沉稳风格，支持网页直接打开，无需额外安装大型客户端。平台对移动端做了适配，手机浏览器也能获得相对完整的体验。</p>
+    </div>
+
+    <h2>几个值得留意的特点</h2>
+    <div class="highlight-grid">
+        <div class="highlight-item">
+            <strong>种类覆盖宽</strong>
+            <span style="font-size:0.95rem; color:#5a4f45;">从德州扑克到广东麻将，从龙虎斗到捕鱼达人，常见品类基本都有。</span>
+        </div>
+        <div class="highlight-item">
+            <strong>网页直连</strong>
+            <span style="font-size:0.95rem; color:#5a4f45;">不需要下载桌面程序，浏览器打开即可进入，适合不想占用存储的用户。</span>
+        </div>
+        <div class="highlight-item">
+            <strong>视觉偏克制</strong>
+            <span style="font-size:0.95rem; color:#5a4f45;">界面没有过度花哨的元素，牌桌和按钮布局比较规矩，新手不会感到混乱。</span>
+        </div>
+    </div>
+
+    <h3>关于使用场景的一些想法</h3>
+    <div class="scenario-block">
+        <p>如果你习惯在午休或晚间空闲时玩几局扑克或者麻将，那么通过浏览器直接访问 <a href="https://cns-kygaming.com" class="link-word">开元棋牌</a> 可以省去安装和更新的麻烦。平台同时提供了快速匹配和自建房间两种模式：快速匹配适合独自想玩一局的时候，自建房间则方便约上两三个朋友一起。</p>
+        <p>另外，如果是棋牌类直播作者或内容创作者，偶尔用它作为背景素材或与观众互动，其网页版特性也降低了切换成本。</p>
+    </div>
+
+    <blockquote>
+        <p>⚠️ 一点提醒：任何在线棋牌都带有一定的运气成分和输赢波动。建议提前设定好娱乐时长和预算，不要抱着“一定能翻本”的心态参与。保持轻松心理，才能体会到棋牌本身的乐趣。</p>
+    </blockquote>
+
+    <h2>访问与注意事项</h2>
+    <p>直接通过浏览器进入 <a href="https://cns-kygaming.com" class="link-word">开元棋牌</a> 即可看到大厅。首次访问时建议先浏览游戏列表和规则说明——大部分玩法都配有简短的文字介绍，花两分钟读一下能避免上桌后手忙脚乱。</p>
+    <p>网络方面，平台对移动网络和 Wi-Fi 都兼容，但若遇到加载延迟，可以尝试切换网络环境或清理浏览器缓存。另外，为了避免账号安全问题，建议仅在个人设备上登录，并定期修改密码。</p>
+
+    <div class="faq-mini">
+        <h3 style="margin-top:0;">常见疑问 · 快速摘要</h3>
+        <details>
+            <summary>是否需要注册才能玩？</summary>
+            <p style="margin:0.4rem 0 0.2rem; padding-left:0.5rem; font-size:0.95rem;">大多数游戏需要注册账号后才能进入，注册过程通常只需要手机号或邮箱，耗时一两分钟。</p>
+        </details>
+        <details>
+            <summary>网页版和客户端版有区别吗？</summary>
+            <p style="margin:0.4rem 0 0.2rem; padding-left:0.5rem; font-size:0.95rem;">开元棋牌以网页版为主，无需额外安装客户端。所有功能均通过浏览器实现，体验上保持一致。</p>
+        </details>
+        <details>
+            <summary>是否支持苹果和安卓设备？</summary>
+            <p style="margin:0.4rem 0 0.2rem; padding-left:0.5rem; font-size:0.95rem;">支持。通过手机浏览器访问即可自适应屏幕，操作按钮会相应放大，触控友好。</p>
+        </details>
+    </div>
+
+    <hr>
+
+    <p class="note">本文仅作为功能与使用介绍，不构成任何投资或赌博建议。请根据当地法律法规以及个人情况，理性选择娱乐方式。如果你之前没有接触过在线棋牌，建议先使用平台提供的试玩或低注模式熟悉规则。</p>
+
+    <div class="footer-text">
+        更详细的信息可浏览 <a href="https://cns-kygaming.com" class="link-word">开元棋牌</a> 页面 · 适度娱乐，保持清醒
+    </div>
+
+</div>
+</body>
+</html>
